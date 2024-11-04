@@ -1,10 +1,17 @@
-body{
+/* General reset for any elements inside the .no-bootstrap container */
+.no-bootstrap * {
+    all: revert;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
     background-image: url(../assets/bgtexture.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.ajustImg{
+.ajustImg {
     width: 100%;
 }
 
@@ -14,8 +21,7 @@ body{
     font-style: normal;       /* Removes italic or oblique styling */
 }
 
-
-.MenuHeader{
+.no-bootstrap .MenuHeader {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,30 +31,28 @@ body{
     margin: 0 auto;
 }
 
-.MenuContainer{
+.no-bootstrap .MenuContainer {
     width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    
 }
 
-.menu-container-item{
+.no-bootstrap .menu-container-item {
     width: 49.5%;
-    height: 640px;
+    height: 700px;
     background-color: white;
 }
 
-.menu-details {
+.no-bootstrap .menu-details {
     font-size: small;
     display: flex;
     flex-direction: column;
     margin-left: 2%;
     margin-right: 2%;
-    
 }
 
-.menu-item{
+.no-bootstrap .menu-item {
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
