@@ -5,6 +5,7 @@
     --white:#FFFFFF;
 }
 
+
 @font-face {
     font-family: 'Montauk-Bold';
     src: url('../fonts/Montauk-Bold.otf') ;
@@ -23,6 +24,12 @@ body{
     padding: 1rem 0rem 1rem;
   
 }
+
+/*General formating start*/
+ .section-margins{
+    margin:1rem 2rem 1rem;
+ }
+/*General Formating end*/
 /*navbar start*/
 
 .logo--header-img{
@@ -44,6 +51,7 @@ body{
 }
 
 /*navbar end*/
+
 
 
 /*footer start*/
