@@ -3,10 +3,7 @@
 - **Name:** Your Name  
 - **Date Revised:** This is the last day you saved.  
 
-## Exercise or Lab Name
-- **Brief Description:** Brief description of what you did.
-
-## Revision History
+## History
 - **Date 1:** Description of what you did on this date.
 - **Date 2:** Description of what you did on this date.
 
@@ -30,7 +27,7 @@ In this project, you will transform the provided mockup into a fully functional 
    - Ensure that all branches are merged correctly and tested before the final submission.
    - Include your GitHub repository link below.
 
-      **GitHub Repository:** [Insert Link Here]
+[GitHub Repository](https://github.com/rob2fresh4this/Puppy-Restaurant-Project/tree/main)
 
 2. **Responsiveness**  
    - The website must be fully responsive across various devices and screen sizes.
