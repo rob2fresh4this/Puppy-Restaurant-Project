@@ -1,0 +1,60 @@
+:root{
+    --maroon: #5F002B;
+    --lightmaroon: #980051;
+    --beige: #F2E9D9;
+    --white:#FFFFFF;
+}
+
+@font-face {
+    font-family: 'Montauk-Bold';
+    src: url('../fonts/Montauk-Bold.otf') ;
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'Montauk-Regular';
+    src: url('../fonts/Montauk-Regular.otf') ;
+   
+  }
+body{
+    background-image: url('../assets/bgtexture.jpg');
+    background-repeat: repeat;
+    padding: 1rem 0rem 1rem;
+  
+}
+/*navbar start*/
+
+.logo--header-img{
+ margin-left:9rem;
+}
+
+.nav-link-parent{
+    margin-right:6rem;
+   
+    font-weight: bold;
+    font-style: italic;
+   
+  
+}
+
+.nav-link{
+    color: var(--maroon);
+    margin-left: 2rem;
+}
+
+/*navbar end*/
+
+
+/*footer start*/
+
+footer{
+    margin-left:9rem;
+    margin-right:6rem;
+    color: var(--maroon);
+    font-family: 'Montauk-Regular', sans-serif;
+
+    
+}
+
+/*footer end*/
