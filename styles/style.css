@@ -1,283 +1,326 @@
 /* ======= */
-:root{
-    --maroon: #5F002B;
-    --lightmaroon: #980051;
-    --beige: #F2E9D9;
-    --white:#FFFFFF;
+:root {
+  --maroon: #5f002b;
+  --lightmaroon: #980051;
+  --beige: #f2e9d9;
+  --white: #ffffff;
 }
 
-
-
+@font-face {
+  font-family: "Montauk-Bold";
+  src: url("../fonts/Montauk-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
-    font-family: 'Montauk-Bold';
-    src: url('../fonts/Montauk-Bold.otf') ;
-    font-weight: normal; 
-    font-style: normal; 
-  }
-
-  @font-face {
-    font-family: 'Montauk-Regular';
-    src: url('../fonts/Montauk-Regular.otf') ;
-   
-  }
-  @font-face {
-    font-family: 'Montauk-Italic';
-    src: url('../fonts/Montauk-Italic.otf') ;
-   
-  }
-  @font-face {
-    font-family: 'Montauk-Light';
-    src: url('../fonts/Montauk-Light.otf') ;
-   
-  }
-  @font-face {
-    font-family: 'FugazOne-Regular';
-    src: url('../fonts/FugazOne-Regular.ttf') ;
-   
-  }
-body{
-    background-image: url('../assets/bgtexture.jpg');
-    background-repeat: repeat;
-    padding: 1rem 0rem 1rem;
-  
+  font-family: "Montauk-Regular";
+  src: url("../fonts/Montauk-Regular.otf");
+}
+@font-face {
+  font-family: "Montauk-Italic";
+  src: url("../fonts/Montauk-Italic.otf");
+}
+@font-face {
+  font-family: "Montauk-Light";
+  src: url("../fonts/Montauk-Light.otf");
+}
+@font-face {
+  font-family: "FugazOne-Regular";
+  src: url("../fonts/FugazOne-Regular.ttf");
+}
+body {
+  background-image: url("../assets/bgtexture.jpg");
+  background-repeat: repeat;
+  padding: 1rem 0rem 1rem;
 }
 
 /* home page */
 
-
-
-.resize-home{
-    width: 100%;
-    height: 25rem;
+.resize-home {
+  width: 100%;
+  height: 25rem;
 }
 
 .home-container {
-    width: 85%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .image-container {
-    width: 39%;
+  width: 39%;
 }
 
 .home-details-container {
-    width: 59%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: white;
+  width: 59%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
 }
 
 .home-details-container1 {
-    font-size: small;
-    font-family: 'Montauk-Regular', sans-serif;
-    background-color: #FFFFFF;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: var(--maroon);
+  font-size: small;
+  font-family: "Montauk-Regular", sans-serif;
+  background-color: #ffffff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--maroon);
 }
 
 .home-image-container {
-    width: 100%;
-    display: flex;
-    overflow: hidden;
-    align-items: flex-end;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-end;
 }
 
 .resize {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .resize1 {
-    width: 100%;
-    height: auto;
-    max-width: 33.33%;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-width: 33.33%;
+  object-fit: cover;
 }
-
-
 
 /* home page END */
 
 /*General formating start*/
- .section-margins{
-    margin: 3rem 6rem  3rem 9rem;
-    
- }
- .page-header{
-    background-color: white;
-    padding:0.5rem  0rem 0.5rem;
-    font-size: 50px;
-    color: var(--maroon);
-    font-family: 'FugazOne-Regular', sans-serif;
- }
+.section-margins {
+  margin: 3rem 6rem 3rem 9rem;
+}
+.page-header {
+  background-color: white;
+  padding: 0.5rem 0rem 0.5rem;
+  font-size: 50px;
+  color: var(--maroon);
+  font-family: "FugazOne-Regular", sans-serif;
+}
 /*General Formating end*/
 /*navbar start*/
 
-.logo--header-img{
- margin-left:9rem;
+.logo--header-img {
+  margin-left: 9rem;
 }
 
-.nav-link-parent{
-    margin-right:6rem;
-   
-    font-weight: bold;
-    font-style: italic;
-   
-  
+.nav-link-parent {
+  margin-right: 6rem;
+
+  font-weight: bold;
+  font-style: italic;
 }
 
-.nav-link{
-    color: var(--maroon);
-    font-family: 'FugazOne-Regular';
-    margin-left: 2rem;
+.nav-link {
+  color: var(--maroon);
+  font-family: "FugazOne-Regular";
+  margin-left: 2rem;
 }
 
 /*navbar end*/
 
-
 /* catering */
-.catering-container{
-  
+.catering-container {
   display: flex;
   justify-content: space-between;
-}   
-
-.catering-img{
-  height:auto;
 }
 
-.text-section{
- 
+.catering-img {
+  height: auto;
+}
+
+.text-section {
   background-color: white;
   color: var(--maroon);
-  font-family: 'Montauk-Light', sans-serif;
+  font-family: "Montauk-Light", sans-serif;
   padding: 2rem;
-  
 }
 
-.text-section h3{
+.text-section h3 {
   font-weight: bold;
-  font-family: 'FugazOne-Regular', sans-serif;
+  font-family: "FugazOne-Regular", sans-serif;
 }
-.text-section p{
+.text-section p {
   line-height: 1.1;
 }
 /*catering end*/
 /*photos start*/
 
 /*photos end*/
-.add-border-white{
-  
-    border: 10px solid white; /* Adjust thickness as needed */
-
+.add-border-white {
+  border: 10px solid white; /* Adjust thickness as needed */
 }
 
-.photo-spacing{
+.photo-spacing {
   margin: 20px 10px;
-
-
 }
 /*footer start*/
 
-footer{
-    margin-left:9rem;
-    margin-right:6rem;
-    color: var(--maroon);
-    font-family: 'Montauk-Light', sans-serif;
-
-    
+footer {
+  margin-left: 9rem;
+  margin-right: 6rem;
+  color: var(--maroon);
+  font-family: "Montauk-Light", sans-serif;
 }
 
 /*footer end*/
-
 
 /* menu page css */
 
 /* General reset for any elements inside the .no-bootstrap container */
 .no-bootstrap * {
-    all: revert;
-    box-sizing: border-box;
-    font-family: 'Montauk-Regular', sans-serif;
+  all: revert;
+  box-sizing: border-box;
+  font-family: "Montauk-Regular", sans-serif;
 }
 
 body {
-    background-image: url(../assets/bgtexture.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(../assets/bgtexture.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-#font-change{
-    font-family: 'FugazOne-Regular', sans-serif;
-    color: var(--maroon);
+#font-change {
+  font-family: "FugazOne-Regular", sans-serif;
+  color: var(--maroon);
 }
 
 .ajustImg {
-    width: 100%;
+  width: 100%;
 }
 
 .plane {
-    font-weight: normal;      /* Removes bold */
-    text-decoration: none;    /* Removes underline, overline, and line-through */
-    font-style: normal;       /* Removes italic or oblique styling */
-    font-family: 'Montauk-Regular', sans-serif;     
+  font-weight: normal; /* Removes bold */
+  text-decoration: none; /* Removes underline, overline, and line-through */
+  font-style: normal; /* Removes italic or oblique styling */
+  font-family: "Montauk-Regular", sans-serif;
 }
 
 .no-bootstrap .MenuHeader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFFFFF;
-    width: 85%;
-    height: 4rem;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 85%;
+  height: 4rem;
+  margin: 0 auto;
 }
 
 .no-bootstrap .MenuContainer {
-    width: 85%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    color: var(--maroon);
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: var(--maroon);
 }
 
 .no-bootstrap .menu-container-item {
-    width: 49.5%;
-    /* height: 700px; */
-    background-color: white;
-    padding-bottom: 2rem;
-    margin-bottom: 1rem;
+  width: 49.5%;
+  /* height: 700px; */
+  background-color: white;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .no-bootstrap .menu-details {
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    margin-left: 2%;
-    margin-right: 2%;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
-.menu-details h3{
-    font-size: x-large;
+.menu-details h3 {
+  font-size: x-large;
 }
 
 .no-bootstrap .menu-item {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #980051;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #980051;
 }
 
-.hide{
-    color: white;
-    border: none !important;
+.hide {
+  color: white;
+  border: none !important;
 }
 
 /* menu page css END */
+
+/* Adjust the layout for mobile */
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    background-size: contain;
+  }
+
+  .no-bootstrap .MenuHeader {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1rem 10px;
+  }
+
+  .no-bootstrap .MenuContainer {
+    width: 100%;
+    margin: 0;
+    display: block;
+    padding: 0 10px;
+  }
+
+  .no-bootstrap .menu-container-item {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+  }
+
+  .ajustImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .menu-details h3,
+  .menu-item h3 {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .menu-details p,
+  .menu-item div {
+    font-size: 0.9rem;
+  }
+
+  .no-bootstrap .menu-item {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  /* Font change for mobile */
+  #font-change {
+    font-size: 1.5rem;
+  }
+
+  .menu-details {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .no-bootstrap .MenuHeader h2 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  .no-bootstrap .menu-container-item img {
+    max-width: 100%;
+  }
+}
