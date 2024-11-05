@@ -40,7 +40,7 @@ body {
 
 .no-bootstrap .menu-container-item {
     width: 49.5%;
-    height: 700px;
+    /* height: 700px; */
     background-color: white;
 }
 
@@ -57,4 +57,9 @@ body {
     justify-content: space-between;
     padding-bottom: 10px;
     border-bottom: 1px solid #980051;
+}
+
+.hide{
+    color: white;
+    border: none !important;
 }
