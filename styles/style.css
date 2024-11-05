@@ -256,6 +256,7 @@ body {
 
 /* menu page css END */
 
+<<<<<<< HEAD
 /* Adjust the layout for mobile */
 @media (max-width: 768px) {
   body {
@@ -324,3 +325,33 @@ body {
     max-width: 100%;
   }
 }
+=======
+
+/* About css */
+.im1ctr{
+    height:675px ;
+    width: 675px;
+}
+
+.bg-wh{
+    background-color: white;
+}
+
+.tc-brw{
+    color: brown;
+}
+
+.ctrtx{
+    text-align: center;
+}
+
+.fil{
+    width: 100%;
+}
+
+.al-img{
+    display: flex;
+    flex-direction: row;
+}
+/*About End*/
+>>>>>>> 6a69c9fdc577771288bd5cccfde2e236286d8341
