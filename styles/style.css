@@ -281,3 +281,32 @@ body {
 }
 
 /* menu page css END */
+
+
+/* About css */
+.im1ctr{
+    height:675px ;
+    width: 675px;
+}
+
+.bg-wh{
+    background-color: white;
+}
+
+.tc-brw{
+    color: brown;
+}
+
+.ctrtx{
+    text-align: center;
+}
+
+.fil{
+    width: 100%;
+}
+
+.al-img{
+    display: flex;
+    flex-direction: row;
+}
+/*About End*/
