@@ -8,6 +8,7 @@
 
 
 
+
 @font-face {
     font-family: 'Montauk-Bold';
     src: url('../fonts/Montauk-Bold.otf') ;
@@ -77,6 +78,35 @@ body{
 
 /*navbar end*/
 
+
+/* catering */
+.catering-container{
+  
+  display: flex;
+  justify-content: space-between;
+}   
+
+.catering-img{
+  height:auto;
+}
+
+.text-section{
+ 
+  background-color: white;
+  color: var(--maroon);
+  font-family: 'Montauk-Light', sans-serif;
+  padding: 2rem;
+  
+}
+
+.text-section h3{
+  font-weight: bold;
+  font-family: 'FugazOne-Regular', sans-serif;
+}
+.text-section p{
+  line-height: 1.1;
+}
+/*catering end*/
 
 
 /*footer start*/
