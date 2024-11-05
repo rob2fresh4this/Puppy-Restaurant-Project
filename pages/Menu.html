@@ -12,10 +12,30 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand logo--header-img" href="#"><img src="../assets/MuzzlesLogo.png" alt="Muzzles Logo"></a>
+            <div class="nav-link-parent">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link"  href="#">About</a>
+                        <a class="nav-link" href="#">Menu</a>
+                        <a class="nav-link" href="#">Catering</a>
+                        <a class="nav-link" >Photo</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+
     <div class="no-bootstrap">
         <br><br><br>
 
-        <div class="MenuHeader">
+        <div class="MenuHeader" id="font-change">
             <h2>Our Menu</h2>
         </div>
 
@@ -24,10 +44,10 @@
 
         <div class="MenuContainer">
             <div class="menu-container-item">
-                <img class="ajustImg" src="../assets/menubeef.jpg" alt="">
+                <img class="ajustImg" src="../assets/menubeef.jpg" alt="beef-item">
                 <div class="menu-details">
                     <div>
-                        <h3>Sandwiches</h3>
+                        <h3 id="font-change">Sandwiches</h3>
                         <p>All sandwiches come with a side of crispy fries</p>
                     </div>
                     <div class="menu-item">
@@ -68,10 +88,10 @@
                 </div>
             </div>
             <div class="menu-container-item">
-                <img class="ajustImg" src="../assets/menuseafood.jpg" alt="">
+                <img class="ajustImg" src="../assets/menuseafood.jpg" alt="seafood-item">
                 <div class="menu-details">
                     <div>
-                        <h3>Seafood</h3>
+                        <h3 id="font-change">Seafood</h3>
                         <p>All seafood comes with a side of rice pilaf and grilled vegetables</p>
                     </div>
                     <div class="menu-item">
@@ -112,10 +132,10 @@
                 </div>
             </div>
             <div class="menu-container-item">
-                <img class="ajustImg" src="../assets/menumeat.jpg" alt="">
+                <img class="ajustImg" src="../assets/menumeat.jpg" alt="meat-item">
                 <div class="menu-details">
                     <div>
-                        <h3>On the grill</h3>
+                        <h3 id="font-change">On the grill</h3>
                         <p>Served with corn, cheddar biscuits, and your choice of coleslaw or potato salad.</p>
                     </div>
                     <div class="menu-item">
@@ -156,10 +176,10 @@
                 </div>
             </div>
             <div class="menu-container-item">
-                <img class="ajustImg" src="../assets/menudesserts.jpg" alt="">
+                <img class="ajustImg" src="../assets/menudesserts.jpg" alt="dessert-item">
                 <div class="menu-details">
                     <div>
-                        <h3>Desserts</h3>
+                        <h3 id="font-change">Desserts</h3>
                         <p>A shot of espresso can be added to any dessert for an additional $2.</p>
                     </div>
                     <div class="menu-item">
@@ -203,8 +223,23 @@
         </div>
     </div>
 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda modi harum, dolorum ut ea aliquam similique alias
-    repudiandae iure explicabo, illo architecto eius! Nihil laborum doloribus ullam, labore sed voluptates.
+    <br><br><br>
+
+    <footer >
+        <div class="container-fluid  m-0 p-0  ">
+            <div class="row d-flex justify-content-between ">
+                <div class="col ">
+                    <p> 1357 Mutt Street, Rottweiler CA. 12345</p>
+                    <p>Phone: 123-456-7890</p>
+                </div>
+                <div class="col text-end  m-0 p-0  ">
+                    <img class = "w-25 " src="../assets/CompanyLogo.png"  alt="Footer Company Logo">
+                    <p>Copyright © Muzzles Restaurant</p>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

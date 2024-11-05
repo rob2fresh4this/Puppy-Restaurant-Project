@@ -1,72 +1,3 @@
-
-/* General reset for any elements inside the .no-bootstrap container */
-.no-bootstrap * {
-    all: revert;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-image: url(../assets/bgtexture.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.ajustImg {
-    width: 100%;
-}
-
-.plane {
-    font-weight: normal;      /* Removes bold */
-    text-decoration: none;    /* Removes underline, overline, and line-through */
-    font-style: normal;       /* Removes italic or oblique styling */
-}
-
-.no-bootstrap .MenuHeader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFFFFF;
-    width: 85%;
-    height: 4rem;
-    margin: 0 auto;
-}
-
-.no-bootstrap .MenuContainer {
-    width: 85%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.no-bootstrap .menu-container-item {
-    width: 49.5%;
-    /* height: 700px; */
-    background-color: white;
-    padding-bottom: 2rem;
-    margin-bottom: 1rem;
-}
-
-.no-bootstrap .menu-details {
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.no-bootstrap .menu-item {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #980051;
-}
-
-.hide{
-    color: white;
-    border: none !important;
-}
 /* ======= */
 :root{
     --maroon: #5F002B;
@@ -161,3 +92,87 @@ footer{
 
 /*footer end*/
 
+
+/* menu page css */
+
+/* General reset for any elements inside the .no-bootstrap container */
+.no-bootstrap * {
+    all: revert;
+    box-sizing: border-box;
+    font-family: 'Montauk-Regular', sans-serif;
+}
+
+body {
+    background-image: url(../assets/bgtexture.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#font-change{
+    font-family: 'FugazOne-Regular', sans-serif;
+    color: var(--maroon);
+}
+
+.ajustImg {
+    width: 100%;
+}
+
+.plane {
+    font-weight: normal;      /* Removes bold */
+    text-decoration: none;    /* Removes underline, overline, and line-through */
+    font-style: normal;       /* Removes italic or oblique styling */
+    font-family: 'Montauk-Regular', sans-serif;     
+}
+
+.no-bootstrap .MenuHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 85%;
+    height: 4rem;
+    margin: 0 auto;
+}
+
+.no-bootstrap .MenuContainer {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--maroon);
+}
+
+.no-bootstrap .menu-container-item {
+    width: 49.5%;
+    /* height: 700px; */
+    background-color: white;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.no-bootstrap .menu-details {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.menu-details h3{
+    font-size: x-large;
+}
+
+.no-bootstrap .menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #980051;
+}
+
+.hide{
+    color: white;
+    border: none !important;
+}
+
+/* menu page css END */
