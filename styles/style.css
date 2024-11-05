@@ -45,6 +45,7 @@ body{
 /*General formating start*/
  .section-margins{
     margin: 3rem 6rem  3rem 9rem;
+    
  }
  .page-header{
     background-color: white;
@@ -106,8 +107,20 @@ body{
   line-height: 1.1;
 }
 /*catering end*/
+/*photos start*/
+
+/*photos end*/
+.add-border-white{
+  
+    border: 10px solid white; /* Adjust thickness as needed */
+
+}
+
+.photo-spacing{
+  margin: 20px 10px;
 
 
+}
 /*footer start*/
 
 footer{
