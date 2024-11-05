@@ -5,10 +5,7 @@
     --white:#FFFFFF;
 }
 
-h1{
 
-   
-}
 
 @font-face {
     font-family: 'Montauk-Bold';
@@ -46,14 +43,14 @@ body{
 
 /*General formating start*/
  .section-margins{
-    margin: 2rem 6rem  2rem 9rem;
+    margin: 3rem 6rem  3rem 9rem;
  }
  .page-header{
     background-color: white;
     padding:0.5rem  0rem 0.5rem;
     font-size: 50px;
     color: var(--maroon);
-    font-family: 'FugazOne-Regular';
+    font-family: 'FugazOne-Regular', sans-serif;
  }
 /*General Formating end*/
 /*navbar start*/
@@ -87,7 +84,7 @@ footer{
     margin-left:9rem;
     margin-right:6rem;
     color: var(--maroon);
-    font-family: 'Montauk-Regular', sans-serif;
+    font-family: 'Montauk-Light', sans-serif;
 
     
 }
