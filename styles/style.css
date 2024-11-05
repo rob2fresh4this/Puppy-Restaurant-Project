@@ -330,11 +330,6 @@ body {
 }
 
 
-
-
-
-
-
 /* About css */
 .im1ctr{
   height:40% ;
@@ -344,7 +339,7 @@ body {
   background-color: white;
 }
 .tc-brw{
-  color: brown;
+  color: #5F002B;
 }
 .ctrtx{
   text-align: center;
@@ -356,4 +351,14 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.FSS{
+  font-size: small;
+  font-family: "Montauk-Regular", sans-serif;
+}
+
+.FSL{
+  font-family: "Montauk-Regular", sans-serif;
+}
+
 /*About End*/
