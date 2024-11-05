@@ -18,6 +18,21 @@
     src: url('../fonts/Montauk-Regular.otf') ;
    
   }
+  @font-face {
+    font-family: 'Montauk-Italic';
+    src: url('../fonts/Montauk-Italic.otf') ;
+   
+  }
+  @font-face {
+    font-family: 'Montauk-Light';
+    src: url('../fonts/Montauk-Light.otf') ;
+   
+  }
+  @font-face {
+    font-family: 'FugazOne-Regular';
+    src: url('../fonts/FugazOne-Regular.ttf') ;
+   
+  }
 body{
     background-image: url('../assets/bgtexture.jpg');
     background-repeat: repeat;
@@ -47,6 +62,7 @@ body{
 
 .nav-link{
     color: var(--maroon);
+    font-family: 'FugazOne-Regular';
     margin-left: 2rem;
 }
 
