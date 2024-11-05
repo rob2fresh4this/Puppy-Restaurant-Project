@@ -36,12 +36,14 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .no-bootstrap .menu-container-item {
     width: 49.5%;
     /* height: 700px; */
     background-color: white;
+    margin-bottom: 1rem;
 }
 
 .no-bootstrap .menu-details {
