@@ -336,28 +336,23 @@ body {
 
 
 /* About css */
-.im1ctr {
-  height: 675px;
-  width: 675px;
+.im1ctr{
+  height:40% ;
+  width: 40%;
 }
-
-.bg-wh {
+.bg-wh{
   background-color: white;
 }
-
-.tc-brw {
+.tc-brw{
   color: brown;
 }
-
-.ctrtx {
+.ctrtx{
   text-align: center;
 }
-
-.fil {
+.fil{
   width: 100%;
 }
-
-.al-img {
+.al-img{
   display: flex;
   flex-direction: row;
 }
