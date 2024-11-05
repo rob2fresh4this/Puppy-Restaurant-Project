@@ -76,6 +76,15 @@ body{
 
 /*navbar end*/
 
+/* catering */
+
+.text-section{
+  background-color: white;
+  color: var(--maroon);
+  font-family: 'Montauk-Light', sans-serif;
+  margin-left: 1rem;
+}
+/*catering end*/
 
 
 /*footer start*/
