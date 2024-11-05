@@ -5,6 +5,10 @@
     --white:#FFFFFF;
 }
 
+h1{
+
+   
+}
 
 @font-face {
     font-family: 'Montauk-Bold';
@@ -42,7 +46,14 @@ body{
 
 /*General formating start*/
  .section-margins{
-    margin:1rem 2rem 1rem;
+    margin: 2rem 6rem  2rem 9rem;
+ }
+ .page-header{
+    background-color: white;
+    padding:0.5rem  0rem 0.5rem;
+    font-size: 50px;
+    color: var(--maroon);
+    font-family: 'FugazOne-Regular';
  }
 /*General Formating end*/
 /*navbar start*/
