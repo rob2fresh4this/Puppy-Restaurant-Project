@@ -424,4 +424,25 @@ body {
   }
 }
 
+
+.resztx{
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .resztx {
+    width: 100%
+  }
+}
+
+.reszpic{
+  width: 33%;
+}
+
+@media screen and (max-width: 1000px) {
+  .reszpic {
+    width: 83.33%
+  }
+}
+
 /*About End*/
