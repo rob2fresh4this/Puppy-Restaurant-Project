@@ -95,14 +95,16 @@
 }
 .page-header {
   background-color: white;
-  padding: 0.5rem 0rem 0.5rem;
+  padding: 0.5rem 0rem ;
   font-size: 50px;
   color: var(--maroon);
   font-family: "FugazOne-Regular", sans-serif;
 }
 /*General Formating end*/
 /*navbar start*/
-
+.navbar{
+  margin-bottom: 0;
+}
 .logo--header-img {
   margin-left: 9rem;
 }
@@ -118,6 +120,7 @@
   color: var(--maroon);
   font-family: "FugazOne-Regular";
   margin-left: 2rem;
+  font-size: 1.5rem;
 }
 
 /*navbar end*/
@@ -160,8 +163,7 @@
 /*footer start*/
 
 footer {
-  margin-left: 9rem;
-  margin-right: 6rem;
+
   color: var(--maroon);
   font-family: "Montauk-Light", sans-serif;
 }
@@ -352,6 +354,11 @@ body {
     width: 50%;  /* Set a fixed width for mobile */
     height: auto;  /* Maintain aspect ratio */
   
+   }
+   .footer-col {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
    }
 
  
