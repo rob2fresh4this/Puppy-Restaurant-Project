@@ -256,12 +256,23 @@ body {
 
 /* menu page css END */
 
+/* medium-screen */
 
+@media screen and (min-width: 925px) and (max-width: 1366px) {
+}
 
-
+/* i pad */
+@media screen and (max-width: 924px) {
+}
 
 /* Adjust the layout for mobile */
 @media (max-width: 768px) {
+  
+  
+  
+  
+  
+  
   body {
     margin: 0;
     background-size: contain;
@@ -329,35 +340,34 @@ body {
   }
 }
 
-
 /* About css */
-.im1ctr{
-  height:40% ;
+.im1ctr {
+  height: 40%;
   width: 40%;
 }
-.bg-wh{
+.bg-wh {
   background-color: white;
 }
-.tc-brw{
-  color: #5F002B;
+.tc-brw {
+  color: #5f002b;
 }
-.ctrtx{
+.ctrtx {
   text-align: center;
 }
-.fil{
+.fil {
   width: 100%;
 }
-.al-img{
+.al-img {
   display: flex;
   flex-direction: row;
 }
 
-.FSS{
+.FSS {
   font-size: small;
   font-family: "Montauk-Regular", sans-serif;
 }
 
-.FSL{
+.FSL {
   font-family: "Montauk-Regular", sans-serif;
 }
 
