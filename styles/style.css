@@ -414,4 +414,14 @@ body {
   src: url("../fonts/FugazOne-Regular.ttf");
 }
 
+.RES-CL{
+  width: 33.33%;
+}
+
+@media screen and (max-width: 995px) {
+  .RES-CL {
+    width: 50%
+  }
+}
+
 /*About End*/
