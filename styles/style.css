@@ -262,6 +262,10 @@ body {
 /* medium-screen */
 
 @media screen and (min-width: 925px) and (max-width: 1366px) {
+  .home-container {
+    width: 100%;
+    margin-bottom: 18rem;
+  }
   .logo--header-img {
     margin-left: 0;
   }
@@ -280,6 +284,25 @@ body {
 
 /* i pad */
 @media screen and (max-width: 924px) {
+  .home-container {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container,
+  .home-details-container {
+    width: 100%;
+  }
+
+  .home-details-container1 {
+    font-size: medium;
+    padding: 1.5rem;
+  }
+
+  .resize-home {
+    height: 20rem;
+  }
   .logo--header-img {
     margin-left: 0;
   }
@@ -298,6 +321,27 @@ body {
 
 /* mobile */
 @media (max-width: 768px) {
+  .home-container {
+    width: 95%;
+  }
+
+  .home-details-container1 {
+    font-size: small;
+    padding: 1rem;
+  }
+
+  .home-image-container {
+    flex-direction: column;
+  }
+
+  .resize-home {
+    height: 18rem;
+  }
+
+  .resize1 {
+    max-width: 100%;
+  }
+
 
   .section-margins{
     margin:1rem 1rem;
@@ -410,6 +454,42 @@ body {
 
 .FSL {
   font-family: "Montauk-Regular", sans-serif;
+}
+
+.FAL{
+  font-family: "FugazOne-Regular";
+  src: url("../fonts/FugazOne-Regular.ttf");
+}
+
+.RES-CL{
+  width: 33.33%;
+}
+
+@media screen and (max-width: 995px) {
+  .RES-CL {
+    width: 50%
+  }
+}
+
+
+.resztx{
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .resztx {
+    width: 100%
+  }
+}
+
+.reszpic{
+  width: 33%;
+}
+
+@media screen and (max-width: 1000px) {
+  .reszpic {
+    width: 83.33%
+  }
 }
 
 /*About End*/
