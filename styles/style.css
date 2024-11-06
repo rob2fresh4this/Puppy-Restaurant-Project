@@ -29,11 +29,7 @@
   font-family: "FugazOne-Regular";
   src: url("../fonts/FugazOne-Regular.ttf");
 }
-body {
-  background-image: url("../assets/bgtexture.jpg");
-  background-repeat: repeat;
-  padding: 1rem 0rem 1rem;
-}
+
 
 /* home page */
 
@@ -95,7 +91,7 @@ body {
 
 /*General formating start*/
 .section-margins {
-  margin: 3rem 6rem 3rem 9rem;
+  margin: 3rem 6rem;
 }
 .page-header {
   background-color: white;
@@ -187,9 +183,16 @@ body {
   background-size: cover;
 }
 
+
 #font-change {
   font-family: "FugazOne-Regular", sans-serif;
   color: var(--maroon);
+}
+/* Ensure images and containers don't overflow */
+.container-fluid {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .ajustImg {
@@ -263,6 +266,20 @@ body {
     width: 100%;
     margin-bottom: 18rem;
   }
+  .logo--header-img {
+    margin-left: 0;
+  }
+
+  
+  .nav-link-parent {
+    margin-right: 0;
+  
+  }
+  
+  .nav-link {
+  
+    margin-left: 0;
+  }
 }
 
 /* i pad */
@@ -286,6 +303,20 @@ body {
   .resize-home {
     height: 20rem;
   }
+  .logo--header-img {
+    margin-left: 0;
+  }
+  
+  .nav-link-parent {
+    margin-right: 0;
+  
+  }
+  
+  .nav-link {
+  
+    margin-left: 0;
+  }
+
 }
 
 /* mobile */
@@ -311,6 +342,21 @@ body {
     max-width: 100%;
   }
 
+
+  .section-margins{
+    margin:1rem 1rem;
+  }
+  
+  .logo--header-img img{
+
+    width: 50%;  /* Set a fixed width for mobile */
+    height: auto;  /* Maintain aspect ratio */
+  
+   }
+
+ 
+  
+  
   body {
     margin: 0;
     background-size: contain;
@@ -376,6 +422,7 @@ body {
   .no-bootstrap .menu-container-item img {
     max-width: 100%;
   }
+
 }
 
 /* About css */
