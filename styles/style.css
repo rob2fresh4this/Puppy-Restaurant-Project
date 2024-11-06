@@ -409,4 +409,9 @@ body {
   font-family: "Montauk-Regular", sans-serif;
 }
 
+.FAL{
+  font-family: "FugazOne-Regular";
+  src: url("../fonts/FugazOne-Regular.ttf");
+}
+
 /*About End*/
