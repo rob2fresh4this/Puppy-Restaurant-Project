@@ -191,6 +191,8 @@ body {
 #font-change {
   font-family: "FugazOne-Regular", sans-serif;
   color: var(--maroon);
+  font-size: 2rem !important;
+  font-weight: bolder !important;
 }
 /* Ensure images and containers don't overflow */
 .container-fluid {
