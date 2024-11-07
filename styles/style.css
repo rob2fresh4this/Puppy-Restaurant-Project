@@ -447,70 +447,81 @@ body {
 }
 
 /* About css */
+.container-flr{
+  max-width: 83.33%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .im1ctr {
-  height: 40%;
-  width: 40%;
+height: 40%;
+width: 40%;
 }
 .bg-wh {
-  background-color: white;
+background-color: white;
 }
 .tc-brw {
-  color: #5f002b;
+color: #5f002b;
 }
 .ctrtx {
-  text-align: center;
+text-align: center;
 }
 .fil {
-  width: 100%;
+width: 100%;
 }
 .al-img {
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 
 .FSS {
-  font-size: small;
-  font-family: "Montauk-Regular", sans-serif;
+font-size: small;
+font-family: "Montauk-Regular", sans-serif;
 }
 
 .FSL {
-  font-family: "Montauk-Regular", sans-serif;
+font-family: "Montauk-Regular", sans-serif;
 }
 
 .FAL{
-  font-family: "FugazOne-Regular";
-  src: url("../fonts/FugazOne-Regular.ttf");
+font-family: "FugazOne-Regular";
+src: url("../fonts/FugazOne-Regular.ttf");
 }
 
 .RES-CL{
-  width: 33.33%;
+width: 33.33%;
 }
 
 @media screen and (max-width: 995px) {
-  .RES-CL {
-    width: 50%
-  }
+.RES-CL {
+  width: 50%
+}
 }
 
+@media screen and (max-width: 500px) {
+.RES-CL {
+  width: 100%
+}
+}
 
 .resztx{
-  width: 50%;
+width: 50%;
 }
 
 @media screen and (max-width: 1000px) {
-  .resztx {
-    width: 100%
-  }
+.resztx {
+  width: 83.33%;
+}
 }
 
 .reszpic{
-  width: 33%;
+width: 33%;
 }
 
 @media screen and (max-width: 1000px) {
-  .reszpic {
-    width: 83.33%
-  }
+.reszpic {
+  width: 83.33%
+}
 }
 
 /*About End*/
