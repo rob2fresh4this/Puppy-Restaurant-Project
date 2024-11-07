@@ -488,6 +488,11 @@ font-family: "FugazOne-Regular";
 src: url("../fonts/FugazOne-Regular.ttf");
 }
 
+.mrg1{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .RES-CL{
 width: 33.33%;
 }
@@ -505,22 +510,28 @@ width: 33.33%;
 }
 
 .resztx{
-width: 50%;
+width: 47.5%;
+padding: 0;
+margin-left: 10px;
 }
 
 @media screen and (max-width: 1000px) {
 .resztx {
   width: 83.33%;
+  padding: 0;
+  margin-left: 0;
 }
 }
 
 .reszpic{
 width: 33.33%;
+padding: 0;
 }
 
 @media screen and (max-width: 1000px) {
 .reszpic {
-  width: 83.33%
+  width: 83.33%;
+  padding: 0;
 }
 }
 
