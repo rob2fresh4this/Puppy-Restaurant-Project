@@ -133,6 +133,7 @@
 
 .catering-img {
   height: auto;
+  object-fit: cover; 
 }
 
 .text-section {
