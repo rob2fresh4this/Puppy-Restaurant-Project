@@ -152,16 +152,18 @@
 /*catering end*/
 /*photos start*/
 
-/*photos end*/
+
 .add-border-white {
-  border: 10px solid white; /* Adjust thickness as needed */
+  border: .7rem solid white; /* Adjust thickness as needed */
 }
 
 .photo-spacing {
-  margin: 20px 10px;
+  margin: 2% 1%;
 }
-/*footer start*/
 
+/*photos end*/
+
+/*footer start*/
 footer {
 
   color: var(--maroon);
@@ -189,6 +191,8 @@ body {
 #font-change {
   font-family: "FugazOne-Regular", sans-serif;
   color: var(--maroon);
+  font-size: 2rem !important;
+  font-weight: bolder !important;
 }
 /* Ensure images and containers don't overflow */
 .container-fluid {
@@ -281,6 +285,7 @@ body {
   .nav-link {
   
     margin-left: 0;
+    
   }
 }
 
@@ -317,6 +322,7 @@ body {
   .nav-link {
   
     margin-left: 0;
+    font-size: medium;
   }
 
 }
@@ -355,6 +361,9 @@ body {
     height: auto;  /* Maintain aspect ratio */
   
    }
+   .add-border-white {
+    border: 5px solid white;/* Adjust thickness as needed */
+  }
    .footer-col {
     display:flex;
     flex-direction: column;
@@ -428,6 +437,11 @@ body {
 
   .no-bootstrap .menu-container-item img {
     max-width: 100%;
+  }
+
+  .nav-link {
+  
+    font-size: small;
   }
 
 }
