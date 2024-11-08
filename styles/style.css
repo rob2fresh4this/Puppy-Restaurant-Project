@@ -497,6 +497,14 @@ src: url("../fonts/FugazOne-Regular.ttf");
   margin-right: 10px;
 }
 
+.PDNG-T{
+  padding-top: 20px;
+}
+
+.PDNG-B{
+  padding-bottom: 20px;
+}
+
 .RES-CL{
 width: 33.33%;
 }
