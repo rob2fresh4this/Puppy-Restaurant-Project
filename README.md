@@ -11,7 +11,8 @@
 - **11/8/24:** Finished reposiveness and deatils
 
 ## Peer Review
-- **Peer Reviewer:** Name of the person who reviewed your assignment.
+- **Peer Reviewer:** This has been Peer Reviewed by: Gianpaolo Reinares:
+> Comments: Site looks great; responiveness on point; on the 'Home' page, from 1365-925px, Muzzles and Grill Box is missing the padding; on the 'About' page, the text could use a bit of padding, and the AboutMain.jpg (alt - 2 dogs with Cinnamon sticks) does not scale with the text box from around 1350-1000px; in 'Catering', cateringMaine.jpg (alt - "Tomato appetizers") could use some padding between it and the text; 'Menu' and 'Photo' pages look great; Besides several areas that could use smaller fonts, site looks almost perfect.
 
 ---
 
