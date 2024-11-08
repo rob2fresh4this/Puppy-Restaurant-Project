@@ -1,11 +1,14 @@
 # Project Documentation
 
-- **Name:** Your Name  
-- **Date Revised:** This is the last day you saved.  
+- **Name:** Robert G, Anthony D, Karen C
+- **Date Revised:** 11/8/24
 
 ## History
-- **Date 1:** Description of what you did on this date.
-- **Date 2:** Description of what you did on this date.
+- **11/4/24:** Worked on skeleton of the site 
+- **11/5/24:** Finished up the skeleton of the site, worked on the details
+- **11/6/24:** Finished up the details and started the reposiveness.
+- **11/7/24:** Worked on the reposiveness and double checked on deatils on reposiveness
+- **11/8/24:** Finished reposiveness and deatils
 
 ## Peer Review
 - **Peer Reviewer:** Name of the person who reviewed your assignment.
@@ -41,6 +44,4 @@ In this project, you will transform the provided mockup into a fully functional 
    - Follow the provided submission guidelines closely.
    - Each team member must submit the entire project.
 
-## Submission Guidelines
-Be sure to adhere to the submission guidelines provided by your instructor or project lead.
 
