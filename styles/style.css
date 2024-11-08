@@ -132,9 +132,9 @@
 }
 
 .catering-img {
-  height: auto;
   object-fit: cover; 
 }
+
 
 .text-section {
   background-color: white;
@@ -326,6 +326,9 @@ body {
     font-size: medium;
   }
 
+.catering-padding{
+  padding:0
+}
 }
 
 /* mobile */
