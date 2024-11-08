@@ -270,7 +270,7 @@ body {
 
 @media screen and (min-width: 925px) and (max-width: 1366px) {
   .home-container {
-    width: 100%;
+    width: 98%;
     margin-bottom: 18rem;
   }
   .logo--header-img {
