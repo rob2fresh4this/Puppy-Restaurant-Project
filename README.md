@@ -16,12 +16,12 @@
 
 - **General Comments:** Site looks great; responsiveness is on point.
 - **Home Page:**
-  - From **1365-925px**, the *Muzzles and Grill* box is missing padding.
+  - [checked] From **1365-925px**, the *Muzzles and Grill* box is missing padding.
 - **About Page:**
-  - The text could use a bit of padding.
-  - The image **AboutMain.jpg** (alt text: *2 dogs with Cinnamon sticks*) does not scale with the text box from **1350-1000px**.
+  - [] The text could use a bit of padding.
+  - [] The image **AboutMain.jpg** (alt text: *2 dogs with Cinnamon sticks*) does not scale with the text box from **1350-1000px**.
 - **Catering Page:**
-  - The image **cateringMaine.jpg** (alt text: *Tomato appetizers*) could use some padding between it and the text.
+  - [] The image **cateringMaine.jpg** (alt text: *Tomato appetizers*) could use some padding between it and the text.
 - **Menu and Photo Pages:** Look great.
 - **General Observations:**
   - Several areas could use smaller fonts.
